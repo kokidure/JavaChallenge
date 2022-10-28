@@ -18,7 +18,7 @@ public class App {
      * @param matrix a matrix of type Position, wich stores the elements of the matrix
      * @return int the size of the biggest island
      */
-    public static int calculateBiggestIsland(Position[][] matrix) {
+    private static int calculateBiggestIsland(Position[][] matrix) {
         List<Island> islands = new LinkedList<>();
 
         for (int i = 0; i < matrix.length; i++) {
